@@ -20,8 +20,6 @@ def api_resp(my_response):
             from_=os.environ.get("SOME_NUM"),
             to='+16362845670'
         )
-        print(message.status)
-
 
 parameters = {
     "lat": 38.781151,
